@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-moustachu-0_8_0.flake = false;
+  inputs.src-moustachu-0_8_0.ref   = "refs/tags/0.8.0";
   inputs.src-moustachu-0_8_0.owner = "fenekku";
-  inputs.src-moustachu-0_8_0.ref   = "0_8_0";
   inputs.src-moustachu-0_8_0.repo  = "moustachu.git";
   inputs.src-moustachu-0_8_0.type  = "github";
   
