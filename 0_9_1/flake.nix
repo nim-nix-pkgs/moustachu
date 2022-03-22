@@ -10,7 +10,7 @@
   inputs.src-moustachu-0_9_1.flake = false;
   inputs.src-moustachu-0_9_1.ref   = "refs/tags/0.9.1";
   inputs.src-moustachu-0_9_1.owner = "fenekku";
-  inputs.src-moustachu-0_9_1.repo  = "moustachu.git";
+  inputs.src-moustachu-0_9_1.repo  = "moustachu";
   inputs.src-moustachu-0_9_1.type  = "github";
   
   inputs."commandeer".owner = "nim-nix-pkgs";
