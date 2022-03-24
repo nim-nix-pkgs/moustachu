@@ -1,5 +1,5 @@
 {
-  description = ''Mustache templating for Nim.'';
+  description = ''Mustache templating for Nimrod'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -12,6 +12,14 @@
   inputs.src-moustachu-0_2_0.owner = "fenekku";
   inputs.src-moustachu-0_2_0.repo  = "moustachu";
   inputs.src-moustachu-0_2_0.type  = "github";
+  
+  inputs."commandeer".owner = "nim-nix-pkgs";
+  inputs."commandeer".ref   = "master";
+  inputs."commandeer".repo  = "commandeer";
+  inputs."commandeer".dir   = "0_12_3";
+  inputs."commandeer".type  = "github";
+  inputs."commandeer".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."commandeer".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
