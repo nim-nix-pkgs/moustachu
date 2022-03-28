@@ -11,7 +11,6 @@
   inputs.src-moustachu-0_7_0.ref   = "refs/tags/0.7.0";
   inputs.src-moustachu-0_7_0.owner = "fenekku";
   inputs.src-moustachu-0_7_0.repo  = "moustachu";
-  inputs.src-moustachu-0_7_0.dir   = "";
   inputs.src-moustachu-0_7_0.type  = "github";
   
   inputs."commandeer".owner = "nim-nix-pkgs";
