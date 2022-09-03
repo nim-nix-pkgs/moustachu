@@ -1,6 +1,0 @@
-*.sublime-project
-*.sublime-workspace
-nimcache/
-moustachu
-runTests
-runBenchmarks
